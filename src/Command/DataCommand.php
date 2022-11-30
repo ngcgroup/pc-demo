@@ -70,7 +70,7 @@ class DataCommand extends AbstractCommand
         }
 
 //        $listing = new Car\Listing();
-//        $listing->setCondition('id NOT IN (SELECT o_parentId FROM object_CAR)');
+//        $listing->setCondition('id NOT IN (SELECT parentId FROM object_CAR)');
 
 //        foreach($listing as $object) {
 //
