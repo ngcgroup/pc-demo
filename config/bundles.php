@@ -6,6 +6,7 @@ use Pimcore\Bundle\DataHubBundle\PimcoreDataHubBundle;
 use Pimcore\Bundle\EcommerceFrameworkBundle\PimcoreEcommerceFrameworkBundle;
 use Pimcore\Bundle\EcommerceFrameworkBundle\PimcorePaymentProviderPayPalSmartPaymentButtonBundle;
 use Pimcore\Bundle\GlossaryBundle\PimcoreGlossaryBundle;
+use Pimcore\Bundle\PersonalizationBundle\PimcorePersonalizationBundle;
 use Pimcore\Bundle\ObjectMergerBundle\ObjectMergerBundle;
 use Pimcore\Bundle\SeoBundle\PimcoreSeoBundle;
 use Web2PrintToolsBundle\Web2PrintToolsBundle;
@@ -15,6 +16,7 @@ return [
     PimcoreEcommerceFrameworkBundle::class => ['all' => true],
     PimcoreCustomerManagementFrameworkBundle::class => ['all' => true],
     PimcoreGlossaryBundle::class => ['all' => true],
+    PimcorePersonalizationBundle::class => ['all' => true],
     PimcoreSeoBundle::class => ['all' => true],
     PimcorePaymentProviderPayPalSmartPaymentButtonBundle::class => ['all' => true],
     PimcoreDataHubBundle::class => ['all' => true],
